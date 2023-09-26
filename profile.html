@@ -1,11 +1,121 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Logan Campbell</title>
-    </head>
-    <body>
-      <h1>Baseball Profile</h1>
-      <p>My first paragraph.</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan Campbell - Athlete Profile</title>
+    <style>
+        /* Reset and default styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica, Arial, sans-serif; /* Helvetica font */
+        }
 
-    </body>
-  </html>
+        body {
+            background-color: #1a1a1a; /* Darker background for modern contrast */
+            color: #f0f0f0; /* Lighter text for contrast */
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px; /* Increased padding for a roomier look */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4); /* Soft shadow for the body */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px; /* Increased margin for spacing */
+            width: 100%;
+            border-bottom: 4px solid yellow;
+            padding-bottom: 20px; /* Increased padding for visual balance */
+        }
+
+        h1, h2 {
+            margin-bottom: 15px;
+        }
+
+        img.profile-pic {
+            width: 380px;
+            height: 600px;
+            margin-right: 40px; /* Increased margin for spacing */
+            box-shadow: 0 0 15px rgba(0,0,0,0.3); /* Soft shadow for the image */
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-bottom: 40px; /* Added margin for spacing */
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        section {
+            margin-bottom: 30px; /* Increased margin for spacing */
+            padding: 15px; /* Increased padding for a roomier look */
+        }
+
+        footer {
+            margin-top: 40px; /* Increased margin for spacing */
+            text-align: center;
+            width: 100%;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 20px; /* Margin for list items */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            img.profile-pic {
+                width: 50%;
+                margin: 20px auto; /* Centering image on mobile */
+                display: block;
+            }
+
+            .content-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Logan Campbell</h1>
+        <p>Lakeville North 2025</p>
+        <p>Positions SS,3B,RHP</p>
+    </header>
+
+    <div class="content-wrapper">
+        <img src="https://scampbell22.github.io/images/3B_Throw.jpeg" alt="Logan Campbell's Image" class="profile-pic">
+
+        <div class="content">
+            <section>
+                <h2>Physical Measurements</h2>
+                <ul>
+                    <li>Height: 6'2"</li>
+                    <li>Weight: 185lbs</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Summer Club Team</h2>
+                <p>Team: Minnesota Grizzlies</p>
+                <p>Coaches: Aaron McEachran (Mac) & Aaron Brush</p>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Steve Campbell. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
