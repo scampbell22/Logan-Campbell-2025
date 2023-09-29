@@ -1,0 +1,68 @@
+body, h1, h2, p, ul, li, strong {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #333;
+    padding: 20px;
+}
+
+.card {
+  perspective: 150rem;
+  position: relative;
+  height: 33.44rem; /* 8.9rem * 2 */
+  width: 17.6rem; /* 6.4rem * 2 */
+  margin: 2rem;
+  box-shadow: none;
+  background: none;
+}
+
+.card-image{
+    border-radius: 15px;
+}
+
+.card-side {
+  height: 33.44rem; /* 8.9rem * 2 */
+  width: 17.6rem; /* 6.4rem * 2 */
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+}
+
+.card-side.front {
+  background-color: #0093E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-side.front img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.card.flipped .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card.flipped .card-side.back {
+  transform: rotateY(0deg);
+}
+
+strong {
+    font-weight: bold;
+}
