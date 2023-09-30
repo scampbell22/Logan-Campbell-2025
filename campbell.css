@@ -1,13 +1,13 @@
 body, h1, h2, p, ul, li, strong {
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: white;
 }
 
 body {
-    background-color: #333;
-    padding: 0px;
+  background-color: #333;
+  padding: 0px;
 }
 
 .card {
@@ -21,7 +21,7 @@ body {
 }
 
 .card-image{
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .card-side {
@@ -42,7 +42,7 @@ body {
 }
 
 .card-side.front {
-  background-color: #0093E9;
+  background-color: #2E2E2E;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,5 +64,19 @@ body {
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+/* Added styles to reduce spacing */
+header {
+  margin-bottom: 0; /* Removes bottom margin from the header */
+}
+
+.mt-5 {
+  margin-top: 0rem !important; /* Reduces top margin. */
+}
+
+/* Center-align content text */
+.content {
+  text-align: center;
 }
