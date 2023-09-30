@@ -93,7 +93,7 @@ header {
 }
 
 .pg-logo {
-  height: 30px; /* Adjust this value as required */
+  height: 24px; /* Adjust this value as required */
   width: auto;
   margin-right: 8px; /* Adds some space between the logo and the text */
   vertical-align: middle; /* Aligns the image with the middle of the text */
