@@ -7,14 +7,14 @@ body, h1, h2, p, ul, li, strong {
 
 body {
     background-color: #333;
-    padding: 20px;
+    padding: 0px;
 }
 
 .card {
   perspective: 150rem;
   position: relative;
-  height: 33.44rem; /* 8.9rem * 2 */
-  width: 17.6rem; /* 6.4rem * 2 */
+  height: 40.128rem;
+  width: 21.12rem; 
   margin: 2rem;
   box-shadow: none;
   background: none;
@@ -25,8 +25,8 @@ body {
 }
 
 .card-side {
-  height: 33.44rem; /* 8.9rem * 2 */
-  width: 17.6rem; /* 6.4rem * 2 */
+  height: 40.128rem;
+  width: 21.12rem; 
   border-radius: 15px;
   transition: all 0.8s ease;
   backface-visibility: hidden;
@@ -38,7 +38,7 @@ body {
 
 .card-side.back {
   transform: rotateY(-180deg);
-  background-color: #4158D0;
+  background-color: #2E2E2E;
 }
 
 .card-side.front {
