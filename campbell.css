@@ -82,6 +82,6 @@ header {
 }
 .grizzlies-link {
     font-size: 2rem; /* 2x the base font size */
-    color: rgb(201, 201, 11);
+    color: #fdba37;
     text-decoration: none; /* to remove underline from the link */
 }
