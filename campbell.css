@@ -80,3 +80,8 @@ header {
 .content {
   text-align: center;
 }
+.grizzlies-link {
+    font-size: 2rem; /* 2x the base font size */
+    color: rgb(201, 201, 11);
+    text-decoration: none; /* to remove underline from the link */
+}
