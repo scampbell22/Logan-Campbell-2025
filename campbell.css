@@ -85,3 +85,17 @@ header {
     color: #fdba37;
     text-decoration: none; /* to remove underline from the link */
 }
+
+.perfectgame-link {
+  font-size: 2rem; /* Keeping it consistent with the grizzlies-link */
+  color: #000000; /* Example blue color */
+  text-decoration: none; /* to remove underline from the link */
+}
+
+.pg-logo {
+  height: 30px; /* Adjust this value as required */
+  width: auto;
+  margin-right: 8px; /* Adds some space between the logo and the text */
+  vertical-align: middle; /* Aligns the image with the middle of the text */
+}
+
