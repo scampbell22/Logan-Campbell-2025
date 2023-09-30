@@ -93,9 +93,8 @@ header {
 }
 
 .pg-logo {
-  height: 24px; /* Adjust this value as required */
-  width: auto;
-  margin-right: 8px; /* Adds some space between the logo and the text */
-  vertical-align: middle; /* Aligns the image with the middle of the text */
+  width: 40px; /* or whatever width you prefer */
+  height: auto; /* maintain aspect ratio */
+  vertical-align: middle; /* to align it with the text */
 }
 
