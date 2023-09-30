@@ -98,3 +98,14 @@ header {
   vertical-align: middle; /* to align it with the text */
 }
 
+.card-side.back {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* This aligns the content to the top of the card */
+  align-items: center;
+  padding-top: 1rem; /* Add some padding at the top */
+  /* (the rest of your existing styles) */
+}
+.stats-header, .stats {
+  text-align: center;
+}
