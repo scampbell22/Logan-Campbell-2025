@@ -5,22 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Flip the card after 5 seconds
     setTimeout(() => {
         card.classList.add("flipped");
-
-        // Flip the card back after 60 seconds
-        setTimeout(() => {
-            card.classList.remove("flipped");
-            canFlipByTouch = true;  // Allow the card to be flipped by touch after the sequence
-        }, 60000); // 60 seconds
-
+        canFlipByTouch = true;  // Allow the card to be flipped by touch after the initial flip
     }, 5000); // 5 seconds
 
     card.addEventListener("click", function() {
         if (canFlipByTouch) {
-            if (card.classList.contains("flipped")) {
-                card.classList.remove("flipped");
-            } else {
-                card.classList.add("flipped");
-            }
+            card.classList.toggle("flipped");  // toggle() will add or remove the class based on its current state
         }
     });
 });
