@@ -109,3 +109,41 @@ header {
 .stats-header, .stats {
   text-align: center;
 }
+
+.contacts-card {
+  width: 21.12rem;  /* Same width as the card */
+  height: 16.5rem; /* Same height as the card. Adjust if needed. */
+  background-color: #2E2E2E; /* Color from card-side.back */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0rem; /* Add some padding at the top */
+  border-radius: 15px; /* Matches the border-radius of your main card */
+}
+
+.contacts-card .stats {
+  text-align: center;
+}
+
+.contacts-card .stats p {
+  font-size: 18px;  /* Adjust this value to your liking */
+}
+
+.contacts-card .stats a {
+  color: #fdba37;  /* Assuming this is the yellow color you referred to */
+  text-decoration: none; /* If you want to remove underline from the links */
+}
+
+.contacts-card .stats a:hover {
+  color: #fdba37;  /* This ensures the color remains consistent even on hover */
+  text-decoration: underline; /* This adds an underline when hovered, but you can remove it if you don't want it */
+}
+
+.highlight-text { /* This is too make Ethan Roe the same yellow etc as the linked coaches */
+  color: #fdba37;  /* The yellow color you want */
+}
+
+.stats-header h3 {
+  text-decoration: underline;
+}
