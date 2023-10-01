@@ -147,3 +147,7 @@ header {
 .stats-header h3 {
   text-decoration: underline;
 }
+
+.stats p {
+  font-size: 1.5em; /* Adjust this value as needed */
+}
