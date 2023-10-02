@@ -179,7 +179,7 @@ footer::before, footer::after {
   height: 1px;
   background-color: white;
   z-index: -1;
-  width: calc((100% - 100% * 0.4) / 2); /* Calculate the remaining space on each side */
+  width: calc((100% - 100% * 0.4) / 3); /* Calculate the remaining space on each side */
 }
 
 footer::before {
