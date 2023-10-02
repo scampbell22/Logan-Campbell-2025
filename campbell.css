@@ -167,8 +167,8 @@ header {
 
 footer {
   position: relative;
-  padding-left: 20%;  /* adjust based on your design preference */
-  padding-right: 20%;  /* adjust based on your design preference */
+  padding-left: 10%;  /* adjust based on your design preference */
+  padding-right: 10%;  /* adjust based on your design preference */
   z-index: 1;
 }
 
@@ -179,7 +179,7 @@ footer::before, footer::after {
   height: 1px;
   background-color: white;
   z-index: -1;
-  width: calc((100% - 100% * 0.4) / 3); /* Calculate the remaining space on each side */
+  width: calc((100% - 100% * 0.4) / 5); /* Calculate the remaining space on each side */
 }
 
 footer::before {
