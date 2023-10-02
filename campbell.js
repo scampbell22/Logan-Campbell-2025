@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
             // Set the image source to the next image in the array
             imageElement.src = imageUrls[currentImageIndex];
-        }, 250); // milliseconds delay
+        }, 230); // milliseconds delay
     }
 
     // Add a click event listener to the card to toggle the "flipped" class
