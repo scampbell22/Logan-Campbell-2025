@@ -13,7 +13,7 @@ body {
 .card {
   perspective: 150rem;
   position: relative;
-  height: 40.128rem;
+  height: 37.68rem;
   width: 21.12rem; 
   margin: 1rem;
   box-shadow: none;
@@ -25,7 +25,7 @@ body {
 }
 
 .card-side {
-  height: 40.128rem;
+  height: 37.6rem;
   width: 21.12rem; 
   border-radius: 15px;
   transition: all 0.8s ease;
@@ -112,7 +112,7 @@ header {
 
 .contacts-card {
   width: 21.12rem;  /* Same width as the card */
-  height: 16.5rem; /* Same height as the card. Adjust if needed. */
+  height: 17rem; /* Same height as the card. Adjust if needed. */
   background-color: #2E2E2E; /* Color from card-side.back */
   display: flex;
   justify-content: flex-start;
@@ -132,7 +132,7 @@ header {
 
 .contacts-card .stats a {
   color: #fdba37;  /* Assuming this is the yellow color you referred to */
-  text-decoration: none; /* If you want to remove underline from the links */
+  text-decoration: underline; /* If you want to remove underline from the links */
 }
 
 .contacts-card .stats a:hover {
@@ -149,5 +149,30 @@ header {
 }
 
 .stats p {
-  font-size: 1.5em; /* Adjust this value as needed */
+  font-size: 1.35em; /* Adjust this value as needed */
+}
+
+footer {
+  position: relative;
+  padding-left: 20%;  /* adjust based on your design preference */
+  padding-right: 20%;  /* adjust based on your design preference */
+  z-index: 1;
+}
+
+footer::before, footer::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background-color: white;
+  z-index: -1;
+  width: calc((100% - 100% * 0.4) / 2); /* Calculate the remaining space on each side */
+}
+
+footer::before {
+  left: 0;
+}
+
+footer::after {
+  right: 0;
 }
