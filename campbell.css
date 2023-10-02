@@ -81,6 +81,20 @@ header {
   text-align: center;
 }
 
+.rounded-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  width: 335px; /* Set a fixed width here */
+  text-align: center; /* Center the content horizontally */
+}
+.boxed-link {
+  margin: 5px;
+}
+
+
 .grizzlies-link {
     font-size: 2rem; /* 2x the base font size */
     color: #000000;
