@@ -80,9 +80,10 @@ header {
 .content {
   text-align: center;
 }
+
 .grizzlies-link {
     font-size: 2rem; /* 2x the base font size */
-    color: #fdba37;
+    color: #000000;
     text-decoration: none; /* to remove underline from the link */
 }
 
@@ -94,6 +95,18 @@ header {
 
 .pg-logo {
   width: 40px; /* or whatever width you prefer */
+  height: auto; /* maintain aspect ratio */
+  vertical-align: middle; /* to align it with the text */
+}
+
+.mac-logo {
+  width: 45px; 
+  height: auto; 
+  vertical-align: middle;
+}
+
+.twitter-logo {
+  width: 15px; /* or whatever width you prefer */
   height: auto; /* maintain aspect ratio */
   vertical-align: middle; /* to align it with the text */
 }
