@@ -1,0 +1,18 @@
+{
+    "stats": {
+        "pitching": {
+            "fb-mph": 99.4,
+            "fb-rpm": 2311,
+            "sl-mph": 76,
+            "sl-rpm": 2600,
+            "cb-mph": 75,
+            "cb-rpm": 2604
+        },
+        "hitting": {
+            "exit-velo": 95.3
+        },
+        "running": {
+            "60yd-dash": 7.26
+        }
+    }
+}

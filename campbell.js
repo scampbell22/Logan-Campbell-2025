@@ -34,3 +34,42 @@ document.addEventListener("DOMContentLoaded", function () {
         changeImageWithDelay(); // Change the image immediately after the card is flipped
     }, 5000); // 5 seconds
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const statsData = {
+        stats: {
+            pitching: {
+                "fb-mph": 88.3,
+                "fb-rpm": 2311,
+                "sl-mph": 76,
+                "sl-rpm": 2600,
+                "cb-mph": 75,
+                "cb-rpm": 2604
+            },
+            hitting: {
+                "exit-velo": 95.3
+            },
+            running: {
+                "60yd-dash": 7.26
+            }
+        }
+    };
+
+    // Populate Pitching stats
+    document.getElementById("fb-mph").textContent = statsData.stats.pitching["fb-mph"];
+    document.getElementById("fb-rpm").textContent = statsData.stats.pitching["fb-rpm"];
+    document.getElementById("sl-mph").textContent = statsData.stats.pitching["sl-mph"];
+    document.getElementById("sl-rpm").textContent = statsData.stats.pitching["sl-rpm"];
+    document.getElementById("cb-mph").textContent = statsData.stats.pitching["cb-mph"];
+    document.getElementById("cb-rpm").textContent = statsData.stats.pitching["cb-rpm"];
+
+    // Populate Hitting stats
+    document.getElementById("exit-velo").textContent = statsData.stats.hitting["exit-velo"] + " MPH";
+
+    // Populate Running stats
+    document.getElementById("60yd-dash").textContent = statsData.stats.running["60yd-dash"] + "s";
+
+});
+
+

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="campbell.css">
-    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Add this line to link the external CSS -->
     <script src="campbell.js" defer></script>
 </head>
 
@@ -37,16 +36,32 @@
                         <h3>Current PR's</h3>
                     </div>
                     <br>
-                    <div class="stats">
-                        <p>FB&nbsp;&nbsp;&nbsp;88.3 | 2311 RPM</p>
-                        <p>SL&nbsp;&nbsp;&nbsp;76 | 2600 RPM</p>
-                        <p>CB&nbsp;&nbsp;&nbsp;75 | 2604 RPM</p>
-                        <br>
-                        <p>Exit Velo&nbsp;&nbsp;&nbsp;95.3 MPH</p>
-                        <br>
-                        <p>60 Yd Dash&nbsp;&nbsp;&nbsp;7.26s</p>                       
-                    </div>
-                    <div class="stats-header">
+                    <!-- Pitching Stats -->
+<div class="stats pitching">
+    <h3>Pitching</h3>
+    <ul>
+        <li>FB <span id="fb-mph"></span> MPH | <span id="fb-rpm"></span> RPM </li>
+        <li>SL <span id="sl-mph"></span> MPH | <span id="sl-rpm"></span> RPM </li>
+        <li>CB <span id="cb-mph"></span> MPH | <span id="cb-rpm"></span> RPM </li>
+    </ul>
+</div>
+
+<!-- Hitting Stats -->
+<div class="stats hitting">
+    <h3>Hitting</h3>
+    <ul>
+        <li>Exit Velo <span id="exit-velo">95.3 MPH</span></li>
+    </ul>
+</div>
+
+<!-- Running Stats -->
+<div class="stats running">
+    <h3>Running</h3>
+    <ul>
+        <li>60 Yd Dash <span id="60yd-dash">7.26s</span></li>
+    </ul>
+</div>
+
                         <br>
                         <h3>Last 2 Starts (Pitching 18U) </h3>
                     </div>
